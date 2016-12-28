@@ -1,0 +1,355 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	font: normal 20px/1.3em 'Open Sans', sans-serif;
+	background: #fff;
+}
+
+.clear {
+	clear: both;
+}
+
+p {
+	margin: 0;
+	padding: 0 0;
+}
+
+a {
+	color: #0000ff;
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #000;
+}
+
+h1 {
+	font: bold 24px/1.3em 'Open Sans', sans-serif;
+}
+
+h2 {
+	padding: 0 0 12px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+ol, ul, dl, li, dt, dd {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+* {
+	outline: none;
+}
+
+.cfx:after {
+	content: "";
+	display: block;
+	clear: both;
+
+}
+
+.limit {
+	width: 990px;
+	margin: auto;
+}
+
+.line {
+	background: #37a14c url("../images/line_1.jpg");
+	margin: auto;
+}
+
+.top {
+	font: normal 16px/1.3em 'Open Sans', sans-serif;
+	color: #ffffff;
+	display: inline-block;
+	padding: 12px 0 13px 0;
+
+}
+
+.line li, nav li {
+	display: inline-block;
+}
+
+.soc {
+	float: right;
+	padding-top: 8px;
+}
+.soc a {
+	display: block;
+	width: 28px;
+	height: 28px;
+	text-indent: -9000px;
+	background: url(../images/sprite.png) no-repeat left top;
+}
+.soc a.fb {
+	background-position: -30px 0;
+}
+.soc a.en {
+	background-position: -60px 0;
+}
+
+.logo {
+	float: left;
+	display: block;
+	padding: 14px 0 8px 0;
+}
+
+.contacts {
+	float: left;
+	width: 270px;
+	padding: 10px 20px 0 35px;
+	font: normal 16px/1.7em 'Open Sans', sans-serif;
+	color: #0f680e;
+}
+.contacts p {
+	display: inline-block;
+}
+.contacts p a {
+	font: 300 20px/1.3em 'Open Sans', sans-serif;
+	width: 185px;
+	text-align: left;
+	display: block;
+	float: right;
+	color: #0f680e;
+}
+.skype {
+	color:#000;
+}
+.contacts .skype a {
+	font: italic 16px/1.3em 'Open Sans', sans-serif;
+	color: #1200ff;
+	padding-left: 10px;
+}
+.skype a:before {
+	content: "";
+	padding: 0 5px;
+	display: inline-block;
+	width: 17px;
+	height: 18px;
+	background: url(../images/sprite.png) no-repeat  -90px 0 ;
+
+}
+.button {
+	float: left;
+	padding-top: 11px;
+}
+
+.button a {
+	font: normal 16px/1.3em 'Open Sans', sans-serif;
+	color: white;
+	padding: 7px 0;
+	display: block;
+	background-color: #fdce0a;
+	border-bottom: 2px ridge #293224;
+	border-top: 1px solid #f3ec19;
+	border-radius: 5px;
+	margin-bottom: 11px;
+	width: 136px;
+	text-align: center;
+}
+
+.button a:hover {
+	border-top: 2px ridge #293224;
+	border-bottom: 1px solid #f3ec19;
+	background-color: #dbb52a;
+	font-weight: 800;
+}
+
+
+.name {
+	float: right;
+	padding: 24px 0 33px 0;
+}
+
+nav {
+	background-image: url("../images/line_2.jpg");
+}
+
+nav ul {
+	font-size: 0;
+	border-left: 1px solid #57e974;
+	border-right: 1px solid #247634;
+}
+
+nav li {
+	width: 20%;
+	text-align: center;
+}
+
+nav a {
+	font: bold 16px/1.3em 'Open Sans', sans-serif;
+	color: #fff;
+	padding: 12px 0 13px 0;
+	display: block;
+	border-left: 1px solid #247634;
+	border-right: 1px solid #57e974;
+}
+
+nav a:hover {
+	background-image: url("../images/line_2_button.jpg");
+	 font-weight: 800;
+}
+
+main {
+	padding-top: 19px;
+}
+
+aside {
+	float: left;
+	width: 231px;
+}
+
+aside li {
+	border-bottom: 2px solid #e7e7e7;
+	padding: 15px 0;
+}
+
+aside a {
+	font: 800 20px/1.3em 'Open Sans', sans-serif;
+	color: #010101;
+}
+
+.submenu a {
+	padding-left: 20px;
+	font: 800 16px/1.3em 'Open Sans', sans-serif;
+	color: #ff0000;
+}
+
+ul.submenu {
+	display: none;
+}
+
+.submenu li {
+	border: none;
+	padding: 0;
+}
+
+li:hover ul.submenu {
+	display: block;
+	 font-weight: 800;
+}
+
+article {
+	float: right;
+	width: 733px;
+}
+
+.main {
+	padding-bottom: 33px;
+	border-bottom: 1px solid #e7e7e7;
+
+}
+
+h1 {
+	padding-top: 0;
+}
+
+.minecraft {
+	padding: 18px 0 14px 0;
+}
+
+article p {
+	font: normal 14px/1.3em 'Open Sans', sans-serif;
+}
+
+.news {
+	padding-top: 58px;
+	font: normal 14px/1.3em 'Open Sans', sans-serif;
+}
+.news li a {
+	font: normal 14px/1.3em 'Open Sans', sans-serif;
+	color: #ffffff;
+}
+
+.news p > span {
+	font: bold 14px/1.3em 'Open Sans', sans-serif;
+	color: #000000;
+	display: block;
+}
+
+.news li p {
+	padding: 10px 0 0 7px;
+	background-image: url("../images/line_3_news.jpg");
+	background-size: auto;
+	border-bottom: 1px solid #247634;
+	height: 80px;
+	width: 225px;
+}
+
+.news li {
+	padding: 11px;
+	display: inline-block;
+	width: 219px;
+}
+
+
+.partner li {
+	display: inline-block;
+	padding: 7px 0;
+	width: 24%;
+}
+.partner .last{
+	float: right;
+}
+footer .yellow {
+	background-image: url("../images/line_4.jpg");
+	background-size: auto;
+}
+
+footer .green {
+	background-image: url("../images/line_5.jpg");
+	background-size: auto;
+}
+
+.yellow > .limit > span {
+	color: #ffffff;
+	padding-top: 20px;
+	display: inline-block;
+}
+
+footer ul {
+	display: block;
+}
+
+footer .contacts {
+	float: right;
+	padding-right: 0;
+	font: normal 16px/1.7em 'Open Sans', sans-serif;
+	color: #000;
+}
+
+.contacts p a {
+	font: 300 20px/1.3em 'Open Sans', sans-serif;
+	color: #000;
+}
+
+.last {
+	text-align: right;
+}
+
+footer > p {
+	font: normal 14px/1.3em 'Open Sans', sans-serif;
+	color: #000000;
+	padding-top: 21px;
+}
